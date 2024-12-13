@@ -16,7 +16,7 @@ export const logo = (
       <div className={styles.logo}>
         <Link to='/'>
             <h2>
-                Shop<span>Ito</span>
+                Magnet<span>Brains</span>
             </h2>
         </Link>
        </div>

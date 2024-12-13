@@ -11,7 +11,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { getProducts } from "../../redux/features/product/productSlice";
 import HomeInfoBox from "./HomeInfoBox";
 import { motion } from "framer-motion";
-// import transition from "../../transition";
+
 
 const PageHeading = ({ heading, btnText }) => {
   return (

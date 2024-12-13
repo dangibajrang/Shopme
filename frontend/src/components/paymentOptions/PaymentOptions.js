@@ -45,7 +45,7 @@ const PaymentOptions = () => {
                       <span className="custom-radio"></span>
                       Stripe
                     </label>
-                    <label htmlFor={"flutterwave"} className="radio-label">
+                    {/* <label htmlFor={"flutterwave"} className="radio-label">
                       <input
                         className="radio-input"
                         type="radio"
@@ -68,8 +68,8 @@ const PaymentOptions = () => {
                       />
                       <span className="custom-radio" />
                       Paypal
-                    </label>
-                    <label htmlFor={"wallet"} className="radio-label">
+                    </label> */}
+                    {/* <label htmlFor={"wallet"} className="radio-label">
                       <input
                         className="radio-input"
                         type="radio"
@@ -80,7 +80,7 @@ const PaymentOptions = () => {
                       />
                       <span className="custom-radio" />
                       Wallet
-                    </label>
+                    </label> */}
                     <button
                       type="submit"
                       className="--btn --btn-primary --btn-block"

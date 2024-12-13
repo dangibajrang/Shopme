@@ -9,6 +9,7 @@ const brandSchema = new mongoose.Schema(
       required: "Name is required",
       minlength: [2, "Too short"],
       maxlength: [32, "Too long"],
+     
     },
     slug: {
       type: String,
@@ -26,3 +27,5 @@ const brandSchema = new mongoose.Schema(
 
 const Brand = mongoose.model("Brand", brandSchema);
 module.exports = Brand;
+
+ 

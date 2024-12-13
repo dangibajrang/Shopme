@@ -23,13 +23,13 @@ app.use(cookieParser());
 app.use(express.urlencoded({ extended: false}));
 app.use(
 cors({
-    origin: ["http://localhost:3000" ,"https://eshopifyapp.vercel.app"],
+    origin: ["http://localhost:3000" ],
     credentials: true,
 })
 );
 app.use("/api/transaction",transactionRoute);
 app.use(express.json());
-
+    
 // Routes
 app.use("/api/users",userRoute);
 app.use("/api/products",productRoute);
