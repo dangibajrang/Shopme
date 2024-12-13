@@ -2,7 +2,7 @@
 
 **MERN Ecommerce** is a full-stack application designed to transform your online shopping experience. Built with the MERN stack (MongoDB, Express.js, React, Node.js), it leverages Redux Toolkit for efficient state management and  user-friendly interface. This project offers a robust platform for both users and admins, packed with essential features for a seamless experience.
 
--github : https://github.com/dangibajrang/task2_EcommerceByBajrangDangi.git
+-github : https://github.com/dangibajrang/Shopme.git
 
 # **Features**
 
@@ -49,7 +49,7 @@
 ### Clone the project
 
 ```bash
-  git clone https://github.com/dangibajrang/task2_EcommerceByBajrangDangi.git
+  git clone https://github.com/dangibajrang/Shopme.githttps://github.com/dangibajrang/Shopme.git
 ```
 
 ### Navigate to the project directory
